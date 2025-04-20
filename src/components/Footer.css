@@ -1,115 +1,125 @@
 /* Footer Base Styles */
 .footer {
-    background-color: #111;
-    color: #eee;
-    padding: 60px 20px;
-    margin-top: 100px;
-    position: relative;
-    overflow: hidden;
-    font-family: 'Inter', sans-serif;
+  background-color: #181817; /* Updated background color */
+  color: #eee;
+  padding: 40px 20px; /* Adjusted padding for better responsiveness */
+  margin-top: 50px; /* Reduced margin for better spacing */
+  position: relative;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-top {
+  text-align: center;
+  margin-bottom: 150px; /* Increased space for tagline */
+  margin-top: 30px; /* Adjusted for better spacing */
+}
+
+.loading-spinner {
+  font-size: 24px;
+  margin-bottom: 15px;
+  animation: blink 1s infinite steps(5);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 1; }
+}
+
+.tagline {
+  font-size: 1.2rem; /* Slightly smaller for better responsiveness */
+  max-width: 500px; /* Adjusted for smaller screens */
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+/* Footer Columns */
+.footer-links {
+  display: flex;
+  justify-content: center; /* Centered for better alignment on all screens */
+  gap: 40px; /* Reduced gap for smaller screens */
+  flex-wrap: wrap;
+  text-align: center; /* Centered for better responsiveness */
+}
+
+.footer-column h4 {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-column a {
+  display: block;
+  color: #ccc;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+/* Background Text */
+.footer-bg-text {
+  position: absolute;
+  bottom: -50px; /* Moved text further down */
+  left: 0;
+  width: 100%;
+  font-size: 220px;
+  color: #92918b; /* Updated color */
+  font-weight: 900;
+  letter-spacing: -10px;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  text-align: center;
+  opacity: 0.05; /* Reduced opacity */
+}
+
+/* Dark Mode Toggle Button */
+.dark-toggle {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dark-toggle:hover {
+  background: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer {
+      padding: 20px 10px; /* Reduced padding for smaller screens */
   }
-  
+
   .footer-top {
-    text-align: center;
-    margin-bottom: 200px;
-    margin-top: 50px;
+      margin-bottom: 50px; /* Adjusted for smaller screens */
+      margin-top: 20px; /* Adjusted for smaller screens */
   }
-  
-  .loading-spinner {
-    font-size: 24px;
-    margin-bottom: 15px;
-    animation: blink 1s infinite steps(5);
-  }
-  
-  @keyframes blink {
-    0%, 100% { opacity: 0.1; }
-    50% { opacity: 1; }
-  }
-  
-  .tagline {
-    font-size: 1.4rem;
-    max-width: 600px;
-    margin: 0 auto;
-    font-weight: 300;
-  }
-  
-  /* Footer Columns */
+
   .footer-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 80px;
-    flex-wrap: wrap;
-    text-align: left;
+      gap: 20px; /* Reduced gap for smaller screens */
   }
-  
-  .footer-column h4 {
-    font-size: 0.75rem;
-    color: #666;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  .footer-column a {
-    display: block;
-    color: #ccc;
-    margin-bottom: 8px;
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: color 0.2s;
-  }
-  
-  .footer-column a:hover {
-    color: #fff;
-  }
-  
-  /* Background Text */
+
   .footer-bg-text {
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    width: 100%; /* Make it span the full width */
-    font-size: 220px;
-    color: #ffffff08;
-    font-weight: 900;
-    letter-spacing: -10px;
-    pointer-events: none;
-    user-select: none;
-    white-space: nowrap;
-    text-align: center; /* Center the text */
+      font-size: 100px; /* Reduced size for smaller screens */
+      bottom: -10px; /* Adjusted position for smaller screens */
   }
-  
-  
-  /* Dark Mode Toggle Button */
-  .dark-toggle {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: #222;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background 0.3s;
+
+  .tagline {
+      font-size: 1rem; /* Adjusted font size for smaller screens */
   }
-  
-  .dark-toggle:hover {
-    background: #333;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .footer-links {
-      justify-content: center;
-      text-align: center;
-      gap: 40px;
-    }
-  
-    .footer-bg-text {
-      font-size: 120px;
-      bottom: -20px;
-    }
-  }
-  
+}
