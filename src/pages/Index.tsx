@@ -136,14 +136,14 @@ const Index = () => {
           <p className="text-slate-600 mb-6 text-lg">
             Automate your booking process and build customer loyalty with our WhatsApp-powered system. Reduce no-shows and increase repeat visits with smart reminders and loyalty programs.
           </p>
-          <div className="flex items-center justify-center gap-2 text-sm text-slate-500">
-            <Badge variant="outline" className="bg-white">
+          <div className="flex flex-wrap items-center justify-center gap-2 text-sm text-slate-500">
+            <Badge variant="outline" className="bg-white px-4 py-2">
               Powered by WhatsApp Business API
             </Badge>
-            <Badge variant="outline" className="bg-white">
+            <Badge variant="outline" className="bg-white px-4 py-2">
               24/7 Support
             </Badge>
-            <Badge variant="outline" className="bg-white">
+            <Badge variant="outline" className="bg-white px-4 py-2">
               Real-time Analytics
             </Badge>
           </div>

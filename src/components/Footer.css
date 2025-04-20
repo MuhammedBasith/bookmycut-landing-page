@@ -1,9 +1,8 @@
-/* Footer Base Styles */
 .footer {
-  background-color: #181817; /* Updated background color */
+  background-color: #181817;
   color: #eee;
-  padding: 40px 20px; /* Adjusted padding for better responsiveness */
-  margin-top: 50px; /* Reduced margin for better spacing */
+  padding: 40px 20px;
+  margin-top: 50px;
   position: relative;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
@@ -11,8 +10,8 @@
 
 .footer-top {
   text-align: center;
-  margin-bottom: 150px; /* Increased space for tagline */
-  margin-top: 30px; /* Adjusted for better spacing */
+  margin-bottom: 150px;
+  margin-top: 30px;
 }
 
 .loading-spinner {
@@ -27,19 +26,18 @@
 }
 
 .tagline {
-  font-size: 1.2rem; /* Slightly smaller for better responsiveness */
-  max-width: 500px; /* Adjusted for smaller screens */
+  font-size: 1.2rem;
+  max-width: 500px;
   margin: 0 auto;
   font-weight: 300;
 }
 
-/* Footer Columns */
 .footer-links {
   display: flex;
-  justify-content: center; /* Centered for better alignment on all screens */
-  gap: 40px; /* Reduced gap for smaller screens */
+  justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
-  text-align: center; /* Centered for better responsiveness */
+  text-align: center;
 }
 
 .footer-column h4 {
@@ -63,24 +61,22 @@
   color: #fff;
 }
 
-/* Background Text */
 .footer-bg-text {
   position: absolute;
-  bottom: -50px; /* Moved text further down */
+  bottom: -50px;
   left: 0;
   width: 100%;
   font-size: 220px;
-  color: #92918b; /* Updated color */
+  color: #92918b;
   font-weight: 900;
   letter-spacing: -10px;
   pointer-events: none;
   user-select: none;
   white-space: nowrap;
   text-align: center;
-  opacity: 0.05; /* Reduced opacity */
+  opacity: 0.05;
 }
 
-/* Dark Mode Toggle Button */
 .dark-toggle {
   position: absolute;
   bottom: 20px;
@@ -99,27 +95,26 @@
   background: #333;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .footer {
-      padding: 20px 10px; /* Reduced padding for smaller screens */
+      padding: 20px 10px;
   }
 
   .footer-top {
-      margin-bottom: 50px; /* Adjusted for smaller screens */
-      margin-top: 20px; /* Adjusted for smaller screens */
+      margin-bottom: 50px;
+      margin-top: 20px;
   }
 
   .footer-links {
-      gap: 20px; /* Reduced gap for smaller screens */
+      gap: 20px;
   }
 
   .footer-bg-text {
-      font-size: 80px; /* Further reduced size for better visibility on mobile */
-      bottom: -20px; /* Adjusted position for better visibility */
+      font-size: 80px;
+      bottom: -20px;
   }
 
   .tagline {
-      font-size: 1rem; /* Adjusted font size for smaller screens */
+      font-size: 1rem;
   }
 }
