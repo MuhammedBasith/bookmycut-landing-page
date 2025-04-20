@@ -115,8 +115,8 @@
   }
 
   .footer-bg-text {
-      font-size: 100px; /* Reduced size for smaller screens */
-      bottom: -10px; /* Adjusted position for smaller screens */
+      font-size: 80px; /* Further reduced size for better visibility on mobile */
+      bottom: -20px; /* Adjusted position for better visibility */
   }
 
   .tagline {
