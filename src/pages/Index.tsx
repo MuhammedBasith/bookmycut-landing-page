@@ -21,13 +21,13 @@ const Index = () => {
           >
             The Future of Salon Booking
           </Badge>
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-black via-black to-black animate-fade-in font-[EB Garamond]">
+            <h1 className="text-6xl md:text-7xl font-bold mb-6 from-black via-black to-black animate-fade-in">
             BookMyCut
             </h1>
-          <p className="text-xl md:text-2xl text-slate-700 mb-4 font-medium font-[Libre Baskerville]">
+          <p className="text-xl md:text-2xl text-slate-700 mb-4 font-medium">
             Your next cut is just a message away.
           </p>
-          <p className="text-slate-600 mb-12 text-lg font-[Libre Baskerville]">
+          <p className="text-slate-600 mb-12 text-lg">
             A WhatsApp-based salon booking automation system that transforms how you schedule your salon visits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

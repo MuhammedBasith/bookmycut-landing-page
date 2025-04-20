@@ -1,4 +1,3 @@
-
 import { LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -21,8 +20,8 @@ export function FeatureCard({ title, description, icon: Icon, className }: Featu
           <Icon className="w-8 h-8 text-purple-600 group-hover:text-white transition-colors" strokeWidth={1.5} />
         </div>
       </div>
-      <h3 className="text-xl font-semibold mb-3">{title}</h3>
-      <p className="text-slate-600 leading-relaxed">{description}</p>
+      <h3 className="text-xl font-semibold mb-3 tracking-tight">{title}</h3>
+      <p className="text-slate-600 leading-relaxed font-normal">{description}</p>
     </div>
   );
 }
