@@ -21,9 +21,9 @@ const Index = () => {
           >
             The Future of Salon Booking
           </Badge>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-purple-800 to-purple-900 animate-fade-in font-[Libre Baskerville]">
+            <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-black via-black to-black animate-fade-in font-[EB Garamond]">
             BookMyCut
-          </h1>
+            </h1>
           <p className="text-xl md:text-2xl text-slate-700 mb-4 font-medium font-[Libre Baskerville]">
             Your next cut is just a message away.
           </p>
